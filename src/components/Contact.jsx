@@ -17,13 +17,14 @@ const Contact = () => {
                     <div className="col-md-6 text-center mb-2">
                         <img src="/assets/contact.png" alt="Contact" className="w-75 ml-2" />
                     </div>
-                    <div className="col-md-6 mr-2">
-                        <div>
-                            <p>
-                                Available soon
-                            </p>
-                        </div>
-                        <form action="">
+        
+                    <div className="col-md-6 mr-2" >
+                        <ul className='list-unstyled text-center'>
+                            <li className='fs-5 ms-3 mt-4'>
+                                <a href="mailto:info@the-speech.de">Email Us @ info@the-speech.de</a>
+                            </li>
+                        </ul>
+                        <form action="" style={{visibility:'hidden'}}>
                             <div className="mb-3">
                                 <label htmlFor="name" className="form-label">
                                     Your Name
