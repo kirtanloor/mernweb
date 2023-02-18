@@ -9,13 +9,13 @@ const Contact = () => {
                         <div className="col-12">
                             <h3 className="fs-5 text-center mb-0">Contact Us</h3>
                             <h1 className="display-6 text-center mb-4">Have Some <b>Question?</b></h1>
-                            <hr className="w-25 mx-auto" />
+                            <hr className="w-75 mx-auto" />
                         </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-6 text-center mb-2">
-                        <img src="/assets/contact.png" alt="Contact" className="w-75 ml-2" />
+                        <img src="/assets/Contact.png" alt="Contact" className="rounded mx-auto d-block w-75  mt-2" />
                     </div>
         
                     <div className="col-md-6 mr-2" >
