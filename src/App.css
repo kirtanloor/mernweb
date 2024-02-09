@@ -1,24 +1,212 @@
 /* Home */
 
+#Navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    /*background-color: transparent !important;*/
+    z-index: 1000; /* Ensure the navbar is above other content */
+  }
+
+#navbar .transparent-navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  #navbar  .intransparent-navbar {
+    background-color:  rgba(255, 255, 255, 0.5); /* Set your desired background color */
+  }
+
 #home {
-    background: rgb(223, 87, 87);
-    background: linear-gradient(90deg, rgb(204,36,36) 50%, rgba(242, 201, 201, 1) 100%);
-    min-height: 500px;
+    background-clip: border-box;
+    /*background-image: url("../public/assets/Background_grey_ about.jpg");*/
+    background-image: url("../public/assets/Background.jpg");
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /*background-size: 1920px 1012px;*/
+    /*background-size: contain;*/
+    /*background: rgb(223, 87, 87);
+    background: linear-gradient(90deg, rgb(204,36,36) 50%, rgba(242, 201, 201, 1) 100%);*/
+    /*min-height: 700px;*/
+    height: 100vh; 
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
 }
+
+#home .custom-text {
+    color: rgba(255, 255, 255, 0.5); /* White color with 50% transparency */
+    margin-top: 8vh;
+    font-size: 84px;
+}
+
+#home .logo-container {
+    background-image: url("../public/assets/the-speech-vektor-red_1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%; /* Adjust as needed */
+    height: 50vh; /* Adjust as needed */
+    background-position: center;
+    filter: brightness(200%); /* Adjust the percentage as needed */
+    filter: contrast(200%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+
+.Section2 {
+    position: relative; /* Ensure the section is positioned relative for the next gigs*/
+}
+
+.Section2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../public/assets/Background.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-attachment: fixed;
+    filter: grayscale(100%); /* Adjust filter effect for Next Gigs section */
+    z-index: -1; /* Ensure the pseudo-element is behind other content */
+}
+
+
+.Section3 {
+    position: relative; /* Ensure the section is positioned relative for the ABOUT US*/
+}
+
+.Section3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../public/assets/Background.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-attachment: fixed;
+    filter: sepia(100%); /* Adjust filter effect for Next Gigs section */
+    z-index: -1; /* Ensure the pseudo-element is behind other content */
+}
+
+#about .text-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Add a semi-transparent white background */
+    /*width: 100%; /* Adjust as needed */
+    /*height: 50vh; /* Adjust as needed */
+    /*padding: 20px; /* Add padding for spacing */
+    /*overflow: auto; /* Enable scrolling if content exceeds container */
+    color: black; /* Set text color to black for readability */
+    font-size: 18px; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height for readability */
+    text-align: center; /* Center-align text */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Add a subtle shadow for depth */
+}
+
+.Section4 {
+    position: relative; /* Ensure the section is positioned relative for the next gigs*/
+}
+
+.Section4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../public/assets/Background.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-attachment: fixed;
+    filter: invert(100%); /* Adjust filter effect for Next Gigs section */
+    z-index: -1; /* Ensure the pseudo-element is behind other content */
+}
+
+
+.Section5 {
+    position: relative; /* Ensure the section is positioned relative for the next gigs*/
+}
+
+.Section5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../public/assets/Background.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-attachment: fixed;
+    filter: contrast(200%); /* Adjust filter effect for Next Gigs section */
+    z-index: -1; /* Ensure the pseudo-element is behind other content */
+}
+
+.Section6 {
+    position: relative; /* Ensure the section is positioned relative for the next gigs*/
+}
+
+.Section6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../public/assets/Background.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(5px); /* Adjust filter effect for Next Gigs section */
+    z-index: -1; /* Ensure the pseudo-element is behind other content */
+}
+
+/* layer to click so that page has interaction. If no click, only scroll, samples won't play */
+
+
+#overlay1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: rgb(253, 175, 175);
+    background-color: #e29bae;
+    opacity: 0.1;
+    font-size: 40px;
+    z-index: 1;
+}
+
+#base1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+td {
+  position: relative;
+}
+
 
 /* Cards */
 
 .card {
-    transition: all 0.54s ease;
+    transition: all 0.54s ease-in;
+    background-clip: border-box;
+    background-image: url("../public/assets/Background_purple_ Samples_Tiles.png");
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat:repeat;
+    background-size:contain;
+    height: 200px;
+    overflow: auto;
 }
 .card:hover {
     cursor: pointer;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.649);
 }
 
 /* Footer */
 
 .footer {
-    background: rgb(223, 87, 87);
-    background: linear-gradient(90deg, rgb(204,36,36) 40%, rgba(242, 201, 201, 1) 100%);  
+    background: #ef9826;
+    background: linear-gradient(90deg, #ef8726 20%, #f9c78f 80%);  
+    /*filter: sepia(100%); /* Adjust filter effect for section 1 */
 }
+

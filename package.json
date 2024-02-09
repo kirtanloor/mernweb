@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://the-speech.de",
   "dependencies": {
+    "@formspree/react": "^2.4.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -14,6 +15,9 @@
     "react-player": "^2.11.0",
     "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
+    "react-spotify-web-playback-sdk": "^3.0.2",
+    "uifx": "^2.0.7",
+    "use-sound": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

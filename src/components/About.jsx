@@ -3,10 +3,11 @@ import React from 'react';
 function About(){
 	return(
 		<div>
-            <section id="about">
-                <div className="container my-p py-5">
+            <section className="Section3" id="about">
+                <div className="container my-p py-5 text-white">
                     <div className="row">
                     <h1 className="display-4 fw-bolder text-center mt-2 mb-3">About Us</h1>
+                    <hr className="w-75 mx-auto" />
                         <div className="col-md-6 ">
                             <img src="/assets/01.jpeg" alt="About"
                             className="rounded mx-auto d-block w-75 mt-5"/>    
@@ -14,7 +15,7 @@ function About(){
                         <div className="col-md-6">
                             <h1 className="display-6 text-center mt-5"><b>Who </b><b>We </b><b>Are</b></h1>
                             <hr className="w-75 mx-auto" />
-                            <p className="lead mx-auto mb-4">
+                            <p className="text-container lead fw-bolder mx-auto mb-4">
                                 Four guys from Arnsberg meet shortly before the Corona Pandemic to start a new project. 
                                 Four guys two generations and different perspectives on life.  
                                 On one side the oldschool rockers Andreas Gelke (guitar) and Lars Günzler (drums).
@@ -28,18 +29,15 @@ function About(){
                             <button className="btn btn-outline-primary 
                                 rounded-pill px-4 py-2 ms-2" style={{visibility:'hidden'}}>Contact us
                             </button>
-                          </div>
+                        </div>
+                        <p className="lead display-6 fw-bolder text-center mx-auto mt-5" >
+                            *                            
+                        </p> 
                     </div>    
                     <div className="row">
-                        <div className="col-md-6">
-                            <div clasname="row-md3">  
-                                <p className="lead mx-auto mt-4" >
-                                    <br></br>
-                                    <br></br>
-                                    <br></br>
-                                    <br></br>
-                                    <br></br>
-                                    <br></br> 
+                        <div className="col-md-6 d-flex align-items-center">
+                            <div clasname="mt-5">  
+                                <p className="text-container lead fw-bolder mx-auto mt-5 text-center" >
                                     Vier Jungs aus Arnsberg treffen sich kurz vor der Corona Pandemie, um ein neues Projekt zu starten. 
                                     Vier Jungs zwei Generationen und unterschiedliche Blickwinkel auf das Leben.  
                                     Auf der einen Seite die Oldschool Rocker Andreas Gelke (Gitarre) und Lars Günzler (Schlagzeug).
@@ -55,15 +53,12 @@ function About(){
                     </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6 mt-5">
+                        <div className="col-md-6  mt-5">
                             <img src="/assets/03.jpg" alt="About"
-                            className="rounded mx-auto d-block w-75  mt-2"/> 
+                            className="rounded mx-auto d-block w-75 "/> 
                         </div>    
-                        <div className="col-md-6">
-                            <br></br>
-                            <br></br> 
-                            <br></br> 
-                            <p className="lead mx-auto mt-5" >
+                        <div className="col-md-6"> 
+                            <p className="text-container lead fw-bolder mx-auto mt-5" >
                                 On the other side the rookies Patrick Stephan (bass) and Immanuel Möller (vocals). 
                                 They went to school together, but their first steps in life couldn't have been more different. 
                                 One as a successful DJ, manager and friend of electronic sounds. The other found only after an 
@@ -72,20 +67,17 @@ function About(){
                             <p className="lead display-6 fw-bolder text-center mx-auto mt-5" >
                                 *                            
                             </p> 
-                            <p className="lead mx-auto mt-5" >
+                            <p className="text-container lead fw-bolder mx-auto mt-5" >
                                 Auf der anderen Seite die Rookies Patrick Stephan (Bass) und Immanuel Möller (Gesang). 
                                 Zusammen zur Schule gegangen, jedoch könnten die ersten Schritte im Leben nicht unterschiedlicher gewesen sein. 
                                 Der eine als erfolgreicher DJ, Manager und Freund elektronsicher Klänge. Der andere fand erst nach einer 
                                 exzessiven Punk-Rock Karriere den Weg ins solide Leben.
-                            </p>
-                            <br></br>  
+                            </p> 
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-md-6">
-                            <p className="lead mx-auto pt-5 ">
-                                <br></br>
-                                <br></br>
+                            <p className="text-container lead fw-bolder mx-auto mt-5 ">
                                 They contribute to the success of the band with their technical expertise and fresh thinking.  
                                 In the summer of 2022, the first 3 songs of your repertoire were recorded in the studio and released.  
                                 The radio premiere as well as the first live performance, followed suitably to the Open Arnsberg Festival. 
@@ -94,7 +86,7 @@ function About(){
                             <p className="lead display-6 fw-bolder text-center mx-auto mt-5" >
                                 *                            
                             </p> 
-                            <p className="lead mx-auto mt-5" >
+                            <p className="text-container lead fw-bolder mx-auto mt-5" >
                                 Sie tragen mit ihrer technischen Expertise und dem frischen Denken zum Erfolg der Band bei.  
                                 Im Sommer 2022 wurden die ersten 3 Lieder Ihres Repertoires im Studio aufgenommen und veröffentlicht.  
                                 Die Radiopremiere so wie der erste Live Auftritt, folgte passend zum Open Arnsberg Festival. 
@@ -106,7 +98,7 @@ function About(){
                             className="rounded mx-auto d-block w-75  mt-5"/>    
                         </div>
                         <div className="col-md-6"></div> 
-                            <p className="lead mx-auto mt-5" >
+                            <p className="text-container lead fw-bolder mx-auto mt-5" >
                                 All four are united by the mission to present their interpretation of rock music to the world. 
                                 They call it Modern Rock with influences from The Police, Led Zeppelin, Dire Straits to Foo Fighters 
                                 and many other bands of rock history. 
@@ -121,7 +113,7 @@ function About(){
                             className="rounded mx-auto d-block w-50  mt-2"/>  
                     </div>
                     <div className="row">   
-                            <p className="lead mx-auto mt-5" >
+                            <p className="text-container lead fw-bolder mx-auto mt-5" >
                                 Alle vier verbindet die Mission, der Welt ihre Interpretation der Rockmusik zu präsentieren. 
                                 Sie nennen es Modern Rock mit Einflüssen von The Police, Led Zeppelin, Dire Straits bis Foo Fighters 
                                 und vielen anderen Bands der Rockgeschichte. 
@@ -146,7 +138,7 @@ function About(){
                     </div>
                     <div className="row">     
                         <h3 className="display-6 fw-bolder text-center fs-7 mx-auto mt-5" >
-                            Together they live rock as its best
+                            Together we live rock as its best
                         </h3>
                     </div> 
                 </div>

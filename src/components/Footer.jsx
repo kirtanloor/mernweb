@@ -9,7 +9,7 @@ const Footer = () => {
                         <div className="row">
                                 <h4>The Speech</h4>
                                 <ul className='list-unstyled text-center'>
-                                    <li className='fs-5 ms-3 mt-4'>
+                                    <li className='fs-5  fw-bold ms-3 mt-4'>
                                         <a href="mailto:info@the-speech.de">Email Us @ info@the-speech.de</a>
                                     </li>
                                 </ul>
@@ -19,27 +19,27 @@ const Footer = () => {
                                 <h5>Section</h5>
                                 <ul className="nav flex-column">
                                     <li className="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
+                                        <a to="#" className="nav-link p-0 fw-bold text-white">
                                             Home
                                         </a>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
+                                        <a to="#" className="nav-link p-0 fw-bold text-white">
                                             Features
                                         </a>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
+                                        <a to="#" className="nav-link p-0 fw-bold text-white">
                                             Pricing
                                         </a>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
+                                        <a to="#" className="nav-link p-0 fw-bold text-white">
                                             FAQs
                                         </a>
                                     </li>
                                     <li className="nav-item mb-2">
-                                        <a to="#" className="nav-link p-0 text-white">
+                                        <a to="#" className="nav-link p-0 fw-bold text-white">
                                             About
                                         </a>
                                     </li>
