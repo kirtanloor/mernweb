@@ -7,6 +7,7 @@ import Samples from './components/Samples';
 import Contact from './components/Contact';
 import Techrider from './components/Techrider';
 import Footer from './components/Footer';
+import CookieConsentManager from './components/CookieConsentManager';
 //import SpotifyAuth from './components/spotifyAuth'; 
 import {
     BrowserRouter as Router,
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/samples" element={<Samples />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/techrider" element={<Techrider />} />
+          <Route exact path="/cookieconsentmanager" element={<CookieConsentManager />} />
           {/*<Route exact path="/spotifyauth" element={<SpotifyAuth />} />*/}
         </Routes>
         <Footer/>

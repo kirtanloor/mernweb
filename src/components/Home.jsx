@@ -6,11 +6,13 @@ import Samples from './Samples';
 import NextGigs from './NextGigs';
 //import Techrider from './Techrider';
 //import SpotifyAuth from './spotifyAuth';
+import CookieConsent from 'react-cookie-consent';
 import { NavLink } from 'react-router-dom';
 
 const Home = () => {
     return (
         <div>
+            <CookieConsent />
             <section className="Section1" id="home">
                 <div className="container">
                     <div className="row justify-content-center">
