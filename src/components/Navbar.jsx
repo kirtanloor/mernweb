@@ -1,27 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = props => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
-  const [isTransparent, setIsTransparent] = useState(true);
-
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
-
-  useEffect(() => {
-    const handleScroll = () => {
-        if (window.scrollY > 0) {
-            setIsTransparent(false);
-        } else {
-            setIsTransparent(true);
-        }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-  }, []);
 
     return (
       <div>

@@ -1,4 +1,4 @@
-import React, {useState } from "react";
+import React from "react";
 
 const NextGigs = () => {
     
@@ -63,7 +63,7 @@ const NextGigs = () => {
                             </div>
                         </div>
                     <div className="row mt-5">
-                        
+
                     </div>   
                     </div>
                 </div>

@@ -2,9 +2,13 @@
   "name": "mernweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://the-speech.de",
+  "homepage": "http://kirtanloor.github.io/mernweb",
   "dependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
     "@formspree/react": "^2.4.1",
+    "@popperjs/core": "^2.11.8",
+    "@testing-library/dom": "^7.21.4",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.1",
     "@testing-library/user-event": "^14.5.2",
@@ -14,8 +18,9 @@
     "react-dom": "^18.2.0",
     "react-player": "^2.11.0",
     "react-router-dom": "^6.6.2",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-spotify-web-playback-sdk": "^3.0.2",
+    "typescript": "^5.3.3",
     "uifx": "^2.0.7",
     "use-sound": "^4.0.1",
     "web-vitals": "^3.5.2"
@@ -25,7 +30,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build --location=global",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -47,6 +52,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-syntax-flow": "^7.14.5",
     "gh-pages": "^6.1.1"
   }
 }

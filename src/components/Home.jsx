@@ -5,7 +5,7 @@ import Contact from './Contact';
 import Samples from './Samples';
 import NextGigs from './NextGigs';
 //import Techrider from './Techrider';
-import SpotifyAuth from './spotifyAuth';
+//import SpotifyAuth from './spotifyAuth';
 import { NavLink } from 'react-router-dom';
 
 const Home = () => {

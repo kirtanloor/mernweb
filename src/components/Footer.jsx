@@ -17,7 +17,7 @@ const Footer = () => {
                         <div className="row">    
                             <div className="col-2" style={{visibility:'hidden'}}>
                                 <h5>Section</h5>
-                                <ul className="nav flex-column">
+                                {/*<ul className="nav flex-column">
                                     <li className="nav-item mb-2">
                                         <a to="#" className="nav-link p-0 fw-bold text-white">
                                             Home
@@ -43,7 +43,7 @@ const Footer = () => {
                                             About
                                         </a>
                                     </li>
-                                </ul>
+                                </ul>*/}
                             </div>
 
                             <div className="col-4 offset-1" style={{visibility:'hidden'}}>

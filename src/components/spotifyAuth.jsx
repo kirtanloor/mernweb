@@ -1,5 +1,5 @@
-import React, {useState , useEffect} from "react";
-import { useForm, ValidationError } from '@formspree/react';
+import React from "react";
+//import { useForm, ValidationError } from '@formspree/react';
 
 //'Authorization': 'Basic ' + (new Buffer.from(clientId + ':' + clientSecret).toString('base64')),
 
