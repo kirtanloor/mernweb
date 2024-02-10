@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/www.the-speech.de/static/css/main.afc53dd8.css",
+    "main.js": "/www.the-speech.de/static/js/main.bbf80319.js",
+    "static/js/808.6ac591bf.chunk.js": "/www.the-speech.de/static/js/808.6ac591bf.chunk.js",
+    "static/media/Background.jpg": "/www.the-speech.de/static/media/Background.48dda38e2b8a8eb819b3.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/www.the-speech.de/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/Background_purple_ Samples_Tiles.png": "/www.the-speech.de/static/media/Background_purple_ Samples_Tiles.13b85a7ff274b957a9f2.png",
+    "static/media/fontawesome-webfont.eot": "/www.the-speech.de/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/www.the-speech.de/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/www.the-speech.de/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/www.the-speech.de/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/the-speech-vektor-red_1.png": "/www.the-speech.de/static/media/the-speech-vektor-red_1.8bf91a93817c2ded0023.png",
+    "index.html": "/www.the-speech.de/index.html",
+    "main.afc53dd8.css.map": "/www.the-speech.de/static/css/main.afc53dd8.css.map",
+    "main.bbf80319.js.map": "/www.the-speech.de/static/js/main.bbf80319.js.map",
+    "808.6ac591bf.chunk.js.map": "/www.the-speech.de/static/js/808.6ac591bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afc53dd8.css",
+    "static/js/main.bbf80319.js"
+  ]
+}
