@@ -7,7 +7,7 @@ import Samples from './components/Samples';
 import Contact from './components/Contact';
 import Techrider from './components/Techrider';
 import Footer from './components/Footer';
-import SpotifyAuth from './components/spotifyAuth'; 
+//import SpotifyAuth from './components/spotifyAuth'; 
 import {
     BrowserRouter as Router,
     Routes,

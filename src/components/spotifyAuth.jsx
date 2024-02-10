@@ -4,41 +4,41 @@ import { useForm, ValidationError } from '@formspree/react';
 //'Authorization': 'Basic ' + (new Buffer.from(clientId + ':' + clientSecret).toString('base64')),
 
 const spotifyAuth = () => {
-    const [token, setToken] = useState('');
+    //const [token, setToken] = useState('');
  
-    const getToken = (callback) => {
-        const clientId = 'aca6428bcc30484184d0aff97467afd4'; // Your client ID
-        const clientSecret = '701dc034376b4d13bcc6215cb6b0e6e3'; // Your client secret
+    //const getToken = (callback) => {
+    //    const clientId = ''; // Your client ID
+    //    const clientSecret = ''; // Your client secret
     
-        const authOptions = {
-        method: 'POST',
-        headers: {
-            'Authorization': 'Basic ' + btoa(clientId + ':' + clientSecret),
-            'Content-Type': 'application/x-www-form-urlencoded'
-        },
-        body: 'grant_type=client_credentials'
-        };
+    //    const authOptions = {
+    //    method: 'POST',
+    //    headers: {
+    //        'Authorization': 'Basic ' + btoa(clientId + ':' + clientSecret),
+    //        'Content-Type': 'application/x-www-form-urlencoded'
+    //    },
+    //    body: 'grant_type=client_credentials'
+    //    };
     
-        fetch('https://accounts.spotify.com/api/token', authOptions)
-        .then(response => {
-            if (!response.ok) {
-            throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
-        .then(data => {
-            const token = data.access_token;
-            callback(token);
-        })
-        .catch(error => {
-            console.error('There was a problem with the fetch operation:', error);
-            alert(error.message);
-        });
-    }
+    //    fetch('https://accounts.spotify.com/api/token', authOptions)
+    //    .then(response => {
+    //        if (!response.ok) {
+    //        throw new Error('Network response was not ok');
+    //        }
+    //        return response.json();
+    //    })
+    //    .then(data => {
+    //        const token = data.access_token;
+    //        callback(token);
+    //    })
+    //    .catch(error => {
+    //        console.error('There was a problem with the fetch operation:', error);
+    //        alert(error.message);
+    //    });
+    //}
 
-    useEffect(() => {
-        getToken(setToken); // Pass setToken as a callback to getToken
-    }, []);
+    //useEffect(() => {
+    //    getToken(setToken); // Pass setToken as a callback to getToken
+    //}, []);
 
     return (
         <div>
