@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.62bcb5e7.css",
+    "main.js": "/static/js/main.02190a2e.js",
+    "static/js/808.6ac591bf.chunk.js": "/static/js/808.6ac591bf.chunk.js",
+    "static/media/Background.jpg": "/static/media/Background.48dda38e2b8a8eb819b3.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/Background_purple_ Samples_Tiles.png": "/static/media/Background_purple_ Samples_Tiles.13b85a7ff274b957a9f2.png",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/the-speech-vektor-red_1.png": "/static/media/the-speech-vektor-red_1.8bf91a93817c2ded0023.png",
+    "index.html": "/index.html",
+    "main.62bcb5e7.css.map": "/static/css/main.62bcb5e7.css.map",
+    "main.02190a2e.js.map": "/static/js/main.02190a2e.js.map",
+    "808.6ac591bf.chunk.js.map": "/static/js/808.6ac591bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62bcb5e7.css",
+    "static/js/main.02190a2e.js"
+  ]
+}
