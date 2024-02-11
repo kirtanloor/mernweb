@@ -135,8 +135,7 @@ const Samples = () => {
                                     </h5>
                                     <p className="card-text lead">
                                         Just enjoy 
-                                        <br></br>
-                                        <br></br>
+                                        <br></br> 
                                     </p>
                                     <iframe 
                                         title="PromisedLAnd"                                        width="100%"

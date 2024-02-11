@@ -15,8 +15,8 @@ const Home = () => {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-md-8 mt-5  text-center">
-                            <h1 className="custom-text lead display-4 fw-bolder mt-6 mb-2 text-center">Welcome</h1>
-                            <p className="custom-text lead fw-bolder fs-2 mb-2 text-center">to</p>
+                            <h1 className="custom-text lead display-4 fw-bolder mt-6 mb-1 text-center">Welcome</h1>
+                            <p className="custom-text lead fw-bolder fs-2 mb-4 text-center">to</p>
                             <div className="logo-container"></div>
                             <div className="buttons d-flex justify-content-center"style={{visibility:'hidden'}}>
                                 <NavLink to="/contact" className="btn btn-light me-4 

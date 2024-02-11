@@ -18,7 +18,7 @@ const NextGigs = () => {
                             <div  className="card p-3 sm-4" >
                                 <div className="card-body text-center">
                                         <i className="fa fa-calendar fa-4x mb-4 text-primary"></i>
-                                    <h5 className="card-title mb-1 fs-2 fw-bold">20.01.2024 20:30 Uhr</h5>
+                                    <h5 className="card-title mb-3 fs-2 fw-bold">20.01.2024 20:30 Uhr</h5>
                                     <p></p>
                                     <p className="card-text lead fs-4">
                                         Kirchstraße 35, 59823 Arnsberg (Sauerland)

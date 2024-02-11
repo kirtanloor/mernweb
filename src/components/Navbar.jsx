@@ -10,7 +10,7 @@ const Navbar = props => {
         <nav id="Navbar" className="navbar navbar-expand-lg fw-bold fs-1 shadow fixed-top">
           <div className="container-fluid">
           <NavLink className="navbar-brand fw-folder fw-bold fs-1 mx-auto" to="/">
-            <img className="logo-nav display-4" src="/assets/the-speech-vektor-red_1.png" alt="Logo" style={{ height: '8.5rem' }} Link to="/"/>
+            <img className="logo-nav display-4 text-left" src="/assets/the-speech-vektor-red_1.png" alt="Logo" style={{ height: '3.5rem' }} Link to="/"/>
           </NavLink>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
               <span className="navbar-toggler-icon"></span>
