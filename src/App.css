@@ -18,20 +18,21 @@
     background-color:  rgba(255, 255, 255, 0.5); /* Set your desired background color */
   }
 
+.container-fluid {
+    max-width: 85%; /* Limit the container-fluid to 80% of the screen width */
+    margin-right: auto; /* Center the container horizontally */
+    margin-left: auto; /* Center the container horizontally */
+    overflow-y:hidden !important;
+}
+
+
 #home {
     background-clip: border-box;
-    /*background-image: url("../public/assets/Background_grey_ about.jpg");*/
     background-image: url("../public/assets/Background.jpg");
     background-origin: padding-box;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    /*background-size: 1920px 1012px;*/
-    /*background-size: contain;*/
-    /*background: rgb(223, 87, 87);
-    background: linear-gradient(90deg, rgb(204,36,36) 50%, rgba(242, 201, 201, 1) 100%);*/
-    /*min-height: 700px;*/
     height: 100vh; 
     background-attachment: fixed; /* Keeps the background fixed while scrolling */
 }
@@ -76,6 +77,7 @@
 
 .Section3 {
     position: relative; /* Ensure the section is positioned relative for the ABOUT US*/
+    
 }
 
 .Section3::before {
@@ -94,16 +96,46 @@
 
 #about .text-container {
     background-color: rgba(255, 255, 255, 0.5); /* Add a semi-transparent white background */
-    /*width: 100%; /* Adjust as needed */
+    /* width: 100%; /* Adjust as needed */
     /*height: 50vh; /* Adjust as needed */
     /*padding: 20px; /* Add padding for spacing */
     /*overflow: auto; /* Enable scrolling if content exceeds container */
     color: black; /* Set text color to black for readability */
-    font-size: 18px; /* Adjust font size as needed */
+    font-size: 36px; /* Adjust font size as needed */
     line-height: 1.5; /* Adjust line height for readability */
     text-align: center; /* Center-align text */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Add a subtle shadow for depth */
+}   
+
+.section-container {
+    /* Stile für den Abschnitt, wenn er nicht erweitert ist */
+    height:100vh;
 }
+  
+.section-container.expanded {
+    height: auto; /* Höhe ändern, wenn der Abschnitt erweitert wird */
+}
+  
+.expand-switch {
+    display: block; /* Standardmäßig anzeigen */
+}
+  
+.section-container.expanded .expand-switch {
+    display: none; /* Verstecke den Schalter, wenn der Abschnitt erweitert wird */
+}
+  
+
+  
+.expand-switch {
+    position: absolute;
+    left: 41%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background*/
+    color:black;
+    font-size: 36px;
+    cursor: pointer;
+}
+
 
 .Section4 {
     position: relative; /* Ensure the section is positioned relative for the next gigs*/
@@ -119,7 +151,7 @@
     background-image: url("../public/assets/Background.jpg"); /* Replace with your background image */
     background-size: cover;
     background-attachment: fixed;
-    filter: invert(100%); /* Adjust filter effect for Next Gigs section */
+    filter: contrast(200%); /* Adjust filter effect for Next Gigs section */
     z-index: -1; /* Ensure the pseudo-element is behind other content */
 }
 
@@ -138,49 +170,8 @@
     background-image: url("../public/assets/Background.jpg"); /* Replace with your background image */
     background-size: cover;
     background-attachment: fixed;
-    filter: contrast(200%); /* Adjust filter effect for Next Gigs section */
-    z-index: -1; /* Ensure the pseudo-element is behind other content */
-}
-
-.Section6 {
-    position: relative; /* Ensure the section is positioned relative for the next gigs*/
-}
-
-.Section6::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../public/assets/Background.jpg"); /* Replace with your background image */
-    background-size: cover;
-    background-attachment: fixed;
     filter: blur(5px); /* Adjust filter effect for Next Gigs section */
     z-index: -1; /* Ensure the pseudo-element is behind other content */
-}
-
-/* layer to click so that page has interaction. If no click, only scroll, samples won't play */
-
-
-#overlay1 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    color: rgb(253, 175, 175);
-    background-color: #e29bae;
-    opacity: 0.1;
-    font-size: 40px;
-    z-index: 1;
-}
-
-#base1 {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-td {
-  position: relative;
 }
 
 
@@ -194,12 +185,27 @@ td {
     background-position: center top;
     background-repeat:repeat;
     background-size:contain;
-    height: 200px;
+    height: 250px;
+    font-size: 30px;
     overflow: auto;
+    margin-top: 0.5rem; 
+    margin-bottom: 0.75rem;
+    margin-left: 1rem;
+    margin-right: 1.25rem;
 }
 .card:hover {
     cursor: pointer;
     box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.649);
+}
+
+.card .card-title{
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.card .card-text{
+    font-size: 24px;
+    font-weight:bold;
 }
 
 /* Footer */

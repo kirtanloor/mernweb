@@ -5,7 +5,7 @@ const NextGigs = () => {
     return (
         <div>
             <section className="Section2" id="nextgigs">
-                <div className="container ">
+                <div className="container-fluid ">
                     <div className="row">
                         <div className="col-12">
                             <h3 className="display-4 fw-bolder text-center mt-2 mb-1 text-white" >Our Next Gigs</h3>

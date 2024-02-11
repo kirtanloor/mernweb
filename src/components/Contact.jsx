@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
     return (
         <div>
-            <section className="Section6" id="contact">
+            <section className="Section5" id="contact">
                 <div className="container my-p py-5">
                     <div className="row mb-5">
                         <div className="col-12">
