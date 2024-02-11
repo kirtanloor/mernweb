@@ -29,10 +29,10 @@ const Contact = () => {
                                 <label htmlFor="name" className="form-label">
                                     Your Name
                                 </label>
-                                <input className='fs-1 fw-bold ms-3 mt-4'
+                                <input 
                                     type="text" 
                                     name="text"
-                                    className="form-control" 
+                                    className="form-control fs-1 fw-bold ms-3 mt-4" 
                                     id="name" 
                                     placeholder="John Doe"
                                 />
@@ -44,7 +44,7 @@ const Contact = () => {
                                 <input 
                                     type="email" 
                                     name="email"
-                                    className="form-control" 
+                                    className="form-control fs-1 fw-bold ms-3 mt-4" 
                                     id="exampleFormControlInput1" 
                                     placeholder="name@example.com"
                                 />

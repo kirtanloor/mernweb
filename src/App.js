@@ -1,4 +1,4 @@
-import React, { useState ,  Component } from 'react';
+import React, { useState , useEffect } from 'react';
 
 import './App.css';
 import Navbar from './components/Navbar';
@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Techrider from './components/Techrider';
 import Footer from './components/Footer';
 import CookieConsentManager from './components/CookieConsentManager';
+import ReactGA from 'react-ga';
 //import SpotifyAuth from './components/spotifyAuth'; 
 import {
     BrowserRouter as Router,
@@ -20,6 +21,10 @@ import {
 
 function App() {
   const [accepted, setAccepted] = useState(false);
+  useEffect(() => {
+    ReactGA.initialize('G-W4N28W1F06');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   // Check if the user has accepted the disclaimer on component mount
   useEffect(() => {

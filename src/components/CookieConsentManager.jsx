@@ -9,11 +9,11 @@ const CookieConsentManager = () => {
     // You can also set a cookie here to remember the user's choice
   };
 
-  const handleDecline = () => {
+  //const handleDecline = () => {
     // Handle the case when the user declines the disclaimer
   //  alert('You declined to accept the disclaimer. You will not proceed further.');
     // You can also redirect the user to another page or take any other action
-  };
+  //};
 
   if (!accepted) {
     return (

@@ -2,7 +2,7 @@
   "name": "mernweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.the-speech.de/",
+  "homepage": "https://kirtanloor.github.io/",
   "dependencies": {
     "@formspree/react": "^2.4.1",
     "@testing-library/jest-dom": "^6.4.2",
@@ -12,6 +12,7 @@
     "font-awesome": "^4.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
     "react-player": "^2.11.0",
     "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
