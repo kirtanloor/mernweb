@@ -11,7 +11,7 @@ const CookieConsentManager = () => {
 
   const handleDecline = () => {
     // Handle the case when the user declines the disclaimer
-    alert('You declined to accept the disclaimer. You will not proceed further.');
+  //  alert('You declined to accept the disclaimer. You will not proceed further.');
     // You can also redirect the user to another page or take any other action
   };
 
@@ -48,10 +48,3 @@ const CookieConsentManager = () => {
 };
 
 export default CookieConsentManager;
-
-{/*<div className="cookie-consent">
-        <h2>Disclaimer</h2>
-        <p>This website uses cookies to ensure you get the best experience.</p>
-        <button onClick={handleAccept}>Accept</button>
-        <button onClick={handleDecline}>Decline</button>
-</div>*/}

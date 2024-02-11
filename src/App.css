@@ -216,6 +216,6 @@
 .footer {
     background: #ef9826;
     background: linear-gradient(90deg, #ef8726 20%, #f9c78f 80%);  
-    /*filter: sepia(100%); /* Adjust filter effect for section 1 */
+    /*filter: sepia(100%); Adjust filter effect for section 1 */
 }
 
