@@ -1,4 +1,5 @@
-import React, { useState }from 'react';
+import React, { useState ,  Component } from 'react';
+
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -20,18 +21,26 @@ import {
 function App() {
   const [accepted, setAccepted] = useState(false);
 
+  // Check if the user has accepted the disclaimer on component mount
+  useEffect(() => {
+      const cookieConsent = localStorage.getItem("cookie_consent");
+      if (cookieConsent === "true") {
+          setAccepted(true);
+      }
+  }, []);
+
   const handleAccept = () => {
-    // Set the accepted state to true when the user accepts the disclaimer
-    setAccepted(true);
-    // You can also set a cookie here to remember the user's choice
+      // Set the accepted state to true when the user accepts the disclaimer
+      setAccepted(true);
+      // Save the acceptance in localStorage
+      localStorage.setItem("cookie_consent", "true");
   };
 
   const handleDecline = () => {
-    // Handle the case when the user declines the disclaimer
-    alert('You declined to accept the disclaimer. You will not proceed further.');
-    // You can also redirect the user to another page or take any other action
+      // Handle the case when the user declines the disclaimer
+      alert('You declined to accept the disclaimer. You will not proceed further.');
+      // You can also redirect the user to another page or take any other action
   };
-
   if (!accepted) {
       return (
           <div>
