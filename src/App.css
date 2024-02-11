@@ -1,3 +1,23 @@
+
+
+/* Default background styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../public/assets/Background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    body {
+      background-size: contain;
+      background-size: 50%; /* Adjust the percentage as needed */
+    }
+}
+
 /* Home */
 
 #Navbar {
@@ -17,9 +37,13 @@
   #navbar  .intransparent-navbar {
     background-color:  rgba(255, 255, 255, 0.5); /* Set your desired background color */
   }
+.logo-navbar {
+    filter: brightness(200%); /* Adjust the percentage as needed */
+    filter: contrast(270%);
+}
 
 .container-fluid {
-    max-width: 85%; /* Limit the container-fluid to 80% of the screen width */
+    max-width: 95%; /* Limit the container-fluid to 80% of the screen width */
     margin-right: auto; /* Center the container horizontally */
     margin-left: auto; /* Center the container horizontally */
     overflow-y:hidden !important;
@@ -57,6 +81,9 @@
 
 .Coockie {
     Top: 250px;
+    color:cornsilk;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    background-color:  rgba(255, 255, 255, 0.185); /* Set your desired background color */
 }
 
 .Section2 {
@@ -76,7 +103,6 @@
     filter: grayscale(100%); /* Adjust filter effect for Next Gigs section */
     z-index: -1; /* Ensure the pseudo-element is behind other content */
 }
-
 
 .Section3 {
     position: relative; /* Ensure the section is positioned relative for the ABOUT US*/
@@ -105,6 +131,7 @@
     /*overflow: auto; /* Enable scrolling if content exceeds container */
     color: black; /* Set text color to black for readability */
     font-size: 36px; /* Adjust font size as needed */
+    font-size: 1.75em;
     line-height: 1.5; /* Adjust line height for readability */
     text-align: center; /* Center-align text */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Add a subtle shadow for depth */
@@ -188,13 +215,12 @@
     background-position: center top;
     background-repeat:repeat;
     background-size:contain;
-    height: 250px;
-    font-size: 30px;
+    font-size: 1.2em;
     overflow: auto;
     margin-top: 0.5rem; 
-    margin-bottom: 0.75rem;
-    margin-left: 1rem;
-    margin-right: 1.25rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 .card:hover {
     cursor: pointer;
@@ -203,11 +229,13 @@
 
 .card .card-title{
     font-size: 48px;
+    font-size: 2em;
     font-weight:bolder;
 }
 
 .card .card-text{
-    font-size: 24px;
+    font-size: 22px;
+    font-size: 1.5em;
     font-weight:bold;
 }
 

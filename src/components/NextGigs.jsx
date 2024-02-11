@@ -18,9 +18,9 @@ const NextGigs = () => {
                             <div  className="card p-3 sm-4" >
                                 <div className="card-body text-center">
                                         <i className="fa fa-calendar fa-4x mb-4 text-primary"></i>
-                                    <h5 className="card-title mb-1 fs-4 fw-bold">20.01.2024 20:30 Uhr</h5>
+                                    <h5 className="card-title mb-1 fs-2 fw-bold">20.01.2024 20:30 Uhr</h5>
                                     <p></p>
-                                    <p className="card-text lead">
+                                    <p className="card-text lead fs-4">
                                         Kirchstraße 35, 59823 Arnsberg (Sauerland)
                                         <br></br>
                                     </p>
@@ -35,8 +35,8 @@ const NextGigs = () => {
                             <div className="card p-3 sm-4" >
                                 <div className="card-body text-center">
                                         <i className="fa fa-calendar fa-4x mb-4 text-primary"></i>
-                                    <h5 className="card-title mb-3 fs-4 fw-bold">01.03.2024 19:00 Uhr</h5>
-                                    <p className="card-text lead">
+                                    <h5 className="card-title mb-3 fs-2 fw-bold">01.03.2024 19:00 Uhr</h5>
+                                    <p className="card-text lead fs-4">
                                         Hauptstraße 76, 59846 Sundern (Sauerland)
                                         <br></br>
                                     </p>
@@ -51,9 +51,9 @@ const NextGigs = () => {
                             <div className="card p-3 sm-4" >
                                 <div className="card-body text-center">
                                         <i className="fa fa-calendar fa-4x mb-4 text-primary"></i>
-                                    <h5 className="card-title mb-3 fs-4 fw-bold">09.05.2024 14:00 Uhr
+                                    <h5 className="card-title mb-3 fs-2 fw-bold">09.05.2024 14:00 Uhr
                                     </h5>
-                                    <p className="card-text lead">
+                                    <p className="card-text lead fs-4">
                                         Eventhof Markt 15 04539 Groitzsch (Leipzig)
                                         <br></br>
                                     </p>

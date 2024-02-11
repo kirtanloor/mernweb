@@ -18,7 +18,7 @@ const Samples = () => {
                             <div  className="card p-3 sm-4 ">
                                 <div className="card-body text-center">
                                         <i className="fa fa-star-half-o fa-4x mb-4 text-primary"></i>
-                                    <h5 className="card-title mb-3 fs-5 fw-bold ">Sally</h5>
+                                    <h5 className="card-title mb-3 fs-1 fw-bold ">Sally</h5>
                                     <p className="card-text lead">
                                         A Punk-Styled party-hymn, just go for it! 
                                     </p>
@@ -40,7 +40,7 @@ const Samples = () => {
                             <div  className="card p-3 sm-4">
                                 <div className="card-body text-center">
                                         <i className="fa fa-heartbeat fa-4x mb-4 text-primary"></i>
-                                    <h5 className="card-title mb-3 fs-4 fw-bold">Feelings
+                                    <h5 className="card-title mb-3 fs-1 fw-bold">Feelings
                                      </h5>
                                     <p className="card-text lead">
                                         Thr softer side of our Rock!!! Do You like?
@@ -64,7 +64,7 @@ const Samples = () => {
                             <div className="card p-3 sm-4">
                                 <div className="card-body text-center">
                                         <i className="fa fa-users fa-4x mb-4 text-primary"></i>
-                                    <h5 className="card-title mb-3 fs-4 fw-bold">Release
+                                    <h5 className="card-title mb-3 fs-1 fw-bold">Release
                                     </h5>
                                     <p className="card-text lead">
                                         Just "smash it" song, jump in and enjoy.
@@ -91,7 +91,7 @@ const Samples = () => {
                             <div className="card p-3 sm-4">
                                 <div className="card-body text-center">
                                         <i className="fa fa-comments fa-4x mb-4 text-primary"></i>
-                                    <h5 className="card-title mb-3 fs-4 fw-bold">Words</h5>
+                                    <h5 className="card-title mb-3 fs-1 fw-bold">Words</h5>
                                     <p className="card-text lead">
                                         Just another Lovesong?
                                        <br></br> 
@@ -131,10 +131,11 @@ const Samples = () => {
                             <div  className="card p-3 sm-4">
                                 <div className="card-body text-center">
                                         <i className="fa fa-cogs fa-4x mb-4 text-primary"></i>
-                                    <h5 className="card-title mb-3 fs-4 fw-bold">Promised Land
+                                    <h5 className="card-title mb-3 fs-1 fw-bold">Promised Land
                                     </h5>
                                     <p className="card-text lead">
-                                        Just enjoy
+                                        Just enjoy 
+                                        <br></br>
                                         <br></br>
                                     </p>
                                     <iframe 
@@ -170,10 +171,10 @@ const Samples = () => {
                             <div  className="card p-3 sm-4">                                
                                 <div className="card-body text-center">
                                         <i className="fa fa-music fa-4x mb-4 text-primary"></i>
-                                    <h5 className="card-title mb-3 fs-4 fw-bold">Lost
+                                    <h5 className="card-title mb-3 fs-1 fw-bold">Lost
                                     </h5>
                                     <p className="card-text lead">
-                                        Something to think about ...
+                                        Something to think about
                                         <br></br> 
                                     </p>
                                     <iframe 

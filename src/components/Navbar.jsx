@@ -7,16 +7,16 @@ const Navbar = props => {
 
     return (
       <div>
-        <nav id="Navbar" className="navbar navbar-expand-lg fw-bold fs-6 shadow fixed-top">
+        <nav id="Navbar" className="navbar navbar-expand-lg fw-bold fs-1 shadow fixed-top">
           <div className="container-fluid">
-          <NavLink className="navbar-brand fw-folder fw-bold fs-6 mx-auto" to="/">
-            <img src="/assets/the-speech-vektor-red_1.png" alt="Logo" style={{ height: '75px' }} />
+          <NavLink className="navbar-brand fw-folder fw-bold fs-1 mx-auto" to="/">
+            <img className="logo-nav display-4" src="/assets/the-speech-vektor-red_1.png" alt="Logo" style={{ height: '8.5rem' }} Link to="/"/>
           </NavLink>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarSupportedContent">
-              <ul className="navbar-nav me-auto ml-5 mb-2 mb-lg-0 fs-4">
+              <ul className="navbar-nav me-auto ml-5 mb-2 mb-lg-0 fs-1">
                 <li className="nav-item">
                   <NavLink className="nav-link active" aria-current="page" to="/"></NavLink>
                 </li>

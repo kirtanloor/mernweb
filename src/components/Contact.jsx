@@ -20,16 +20,16 @@ const Contact = () => {
         
                     <div className="col-md-6 mr-2" >
                         <ul className='list-unstyled text-center'>
-                            <li className='fs-5 ms-3 mt-4'>
+                            <li className='fs-1 fw-bold ms-3 mt-4'>
                                 <a href="mailto:info@the-speech.de">Email Us @ info@the-speech.de</a>
                             </li>
                         </ul>
                         <form action="https://formspree.io/f/myyaeabd" method="POST" >
-                            <div className="fs-5 fw-bold mb-3">
+                            <div className="fs-2 fw-bold mb-3">
                                 <label htmlFor="name" className="form-label">
                                     Your Name
                                 </label>
-                                <input 
+                                <input className='fs-1 fw-bold ms-3 mt-4'
                                     type="text" 
                                     name="text"
                                     className="form-control" 
@@ -37,7 +37,7 @@ const Contact = () => {
                                     placeholder="John Doe"
                                 />
                             </div>
-                            <div className="fs-5 fw-bold mb-3">
+                            <div className="fs-2 fw-bold mb-3">
                                 <label htmlFor="exampleFormControlInput1" className="form-label">
                                     Email address
                                 </label>
@@ -49,7 +49,7 @@ const Contact = () => {
                                     placeholder="name@example.com"
                                 />
                             </div>
-                            <div className="fs-5 fw-bold mb-3">
+                            <div className="fs-2 fw-bold mb-3">
                                 <label htmlFor="exampleFormControlTextarea1" className="form-label">
                                     Your Message
                                 </label>
@@ -60,8 +60,8 @@ const Contact = () => {
                                     rows="5">
                                 </textarea>
                             </div>
-                            <button type="submit" className="btn btn-outline-primary mb-3">
-                                Send Message <i className="fs-5 fw-bold fa fa-paper-plane ms-2"></i>
+                            <button type="submit" className="btn btn-outline-primary display-4 mb-3">
+                                Send Message <i className="fs-2 fw-bold fa fa-paper-plane ms-2"></i>
                             </button>
                         </form>
                     </div>
