@@ -17,12 +17,24 @@ const CookieConsentManager = () => {
 
   if (!accepted) {
     return (
-      <div className="cookie-consent">
-        <h2>Disclaimer</h2>
-        <p>This website uses cookies to ensure you get the best experience.</p>
-        <button onClick={handleAccept}>Accept</button>
-        <button onClick={handleDecline}>Decline</button>
-      </div>
+      <div>
+        <section className="Section0" id="Coockie">
+          <div className="container">
+            <div className="row justify-content-center">
+                <div className="col-md-8 mt-5  text-center">
+                    <h1 className="custom-text lead display-4 fw-bolder mt-6 mb-2 text-center">Disclaimer</h1>
+                    <p className="custom-text lead fw-bolder fs-2 mb-2 text-center">This website uses cookies to ensure you get the best experience.</p>
+                    <div className="buttons d-flex justify-content-center btn btn-light me-4 rounded-pill px-4 py-2" onClick={handleAccept}>
+                        Accept
+                    </div>   
+                    <div className="buttons d-flex justify-content-center btn btn-outline-light rounded-pill px-4 py-2" onClick={handleAccept}>
+                        Decline
+                    </div>
+                </div>
+            </div>  
+          </div>   
+        </section>
+      </div>    
     );
   }
 
@@ -36,3 +48,10 @@ const CookieConsentManager = () => {
 };
 
 export default CookieConsentManager;
+
+{/*<div className="cookie-consent">
+        <h2>Disclaimer</h2>
+        <p>This website uses cookies to ensure you get the best experience.</p>
+        <button onClick={handleAccept}>Accept</button>
+        <button onClick={handleDecline}>Decline</button>
+</div>*/}

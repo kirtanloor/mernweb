@@ -55,6 +55,9 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
+.Coockie {
+    Top: 250px;
+}
 
 .Section2 {
     position: relative; /* Ensure the section is positioned relative for the next gigs*/

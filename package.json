@@ -2,7 +2,7 @@
   "name": "mernweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://the-speech.de",
+  "homepage": "https://the-speech.de/",
   "dependencies": {
     "@formspree/react": "^2.4.1",
     "@testing-library/jest-dom": "^6.4.2",
