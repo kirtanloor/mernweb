@@ -10,16 +10,27 @@ body {
 }
 
 /* Media query for smaller screens (e.g., mobile devices) */
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     body {
         background-size: contain;
-        background-size:120%;
+        background-size:80%;
         width:100%;
         overflow-x: hidden; /* Prevent horizontal scrolling */
+        
+    }
+
+    #Navbar {
+        position: fixed;
+        top: 0;
+        width: 10vh;
+        height: 12vH;
+        background-color: rgba(255, 255, 255, 0.5);
+        /*background-color: transparent !important;*/
+        z-index: 1000; /* Ensure the navbar is above other content */
     }
 
     .container-fluid {
-        max-width: 90%; /* Adjust container width for smaller screens */
+        max-width: 100%; /* Adjust container width for smaller screens */
         display: flex;
         justify-content: center;
         flex-direction: column; /* Arrange items vertically */
@@ -34,12 +45,12 @@ body {
         font-size: 4vw; /* Responsive font size */
     }
     
-    #home .logo-container {
+    .logo-container {
         background-image: url("../public/assets/the-speech-vektor-red_1.png");
         background-repeat: no-repeat;
-        background-size: auto;
-        width: 100%; /* Adjust as needed */
-        height: 50vh; /* Adjust as needed */
+        background-size: 25vH;
+        width: 10%; /* Adjust as needed */
+        height: 10vh; /* Adjust as needed */
         background-position: center;
         filter: brightness(200%); /* Adjust the percentage as needed */
         filter: contrast(200%);
@@ -175,7 +186,7 @@ body {
     /*padding: 20px; /* Add padding for spacing */
     /*overflow: auto; /* Enable scrolling if content exceeds container */
     color: black; /* Set text color to black for readability */
-    font-size: 3vw;
+    font-size: 1.75vw;
     line-height: 1.5; /* Adjust line height for readability */
     text-align: center; /* Center-align text */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Add a subtle shadow for depth */

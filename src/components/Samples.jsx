@@ -13,9 +13,9 @@ const Samples = () => {
                             <hr className="w-75 mx-auto" />
                         </div>
                     </div>
-                    <div className="row mt-5">        
+                    <div className="row mt-2">        
                         <div className="col-md-4">
-                            <div  className="card p-3 sm-4 ">
+                            <div  className="card p-3 sm-4 mx-auto my-auto">
                                 <div className="card-body text-center">
                                         <i className="fa fa-star-half-o fa-4x mb-4 text-primary"></i>
                                     <h5 className="card-title mb-3 fs-1 fw-bold ">Sally</h5>
@@ -36,8 +36,8 @@ const Samples = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
-                            <div  className="card p-3 sm-4">
+                        <div className="col-md-4 mt-2">
+                            <div  className="card p-3 sm-4 mx-auto my-auto">
                                 <div className="card-body text-center">
                                         <i className="fa fa-heartbeat fa-4x mb-4 text-primary"></i>
                                     <h5 className="card-title mb-3 fs-1 fw-bold">Feelings
@@ -60,8 +60,8 @@ const Samples = () => {
                                 </div>
                             </div>
                         </div>
-                        <div  className="col-md-4">
-                            <div className="card p-3 sm-4">
+                        <div  className="col-md-4 mt-2">
+                            <div className="card p-3 sm-4 mx-auto my-auto">
                                 <div className="card-body text-center">
                                         <i className="fa fa-users fa-4x mb-4 text-primary"></i>
                                     <h5 className="card-title mb-3 fs-1 fw-bold">Release
@@ -86,9 +86,9 @@ const Samples = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row mt-5">
-                        <div className="col-md-4">
-                            <div className="card p-3 sm-4">
+                    <div className="row mt-2">
+                        <div className="col-md-4 mt-2">
+                            <div className="card p-3 sm-4 mx-auto my-auto">
                                 <div className="card-body text-center">
                                         <i className="fa fa-comments fa-4x mb-4 text-primary"></i>
                                     <h5 className="card-title mb-3 fs-1 fw-bold">Words</h5>
@@ -127,8 +127,8 @@ const Samples = () => {
                             </div>
                         </div>
                     
-                        <div className="col-md-4">
-                            <div  className="card p-3 sm-4">
+                        <div className="col-md-4 mt-2">
+                            <div  className="card p-3 sm-4 mx-auto my-auto">
                                 <div className="card-body text-center">
                                         <i className="fa fa-cogs fa-4x mb-4 text-primary"></i>
                                     <h5 className="card-title mb-3 fs-1 fw-bold">Promised Land
@@ -166,8 +166,8 @@ const Samples = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-4">
-                            <div  className="card p-3 sm-4">                                
+                        <div className="col-md-4 mt-2">
+                            <div  className="card p-3 sm-4 mx-auto my-auto">                                
                                 <div className="card-body text-center">
                                         <i className="fa fa-music fa-4x mb-4 text-primary"></i>
                                     <h5 className="card-title mb-3 fs-1 fw-bold">Lost

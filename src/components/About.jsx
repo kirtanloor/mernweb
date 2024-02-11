@@ -22,10 +22,10 @@ function About(){
                                 <hr className="w-75 mx-auto" />
                                     <div className="col-md-6 ">
                                         <img src="/assets/01.jpeg" alt="About"
-                                        className="rounded mx-auto d-block w-75 mt-5"/>    
+                                        className="rounded mx-auto d-block w-100 mt-5 mb-5"/>    
                                     </div>
                                     <div className="col-md-6 mx-auto my-auto">
-                                        <h1 className="display-5 fw-bolder text-center mt-5"><b>Who </b><b>We </b><b>Are</b></h1>
+                                        <h1 className="display-5 fw-bolder text-center mt-5 mx-auto my-auto"><b>Who </b><b>We </b><b>Are</b></h1>
                                         <hr className="w-75 " />
                                         <p className="text-container lead fw-bolder mx-auto mt-5 mb-4">
                                             Four guys from Arnsberg meet shortly before the Corona Pandemic to start a new project. 

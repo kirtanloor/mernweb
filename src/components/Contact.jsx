@@ -25,42 +25,42 @@ const Contact = () => {
                             </li>
                         </ul>
                         <form action="https://formspree.io/f/myyaeabd" method="POST" >
-                            <div className="fs-2 fw-bold mb-3">
-                                <label htmlFor="name" className="form-label">
+                            <div className="fs-2 fw-bold mb-3 fs-light mbx-auto mby-auto" >
+                                <label htmlFor="name" className="form-label text-white ms-1">
                                     Your Name
                                 </label>
                                 <input 
                                     type="text" 
                                     name="text"
-                                    className="form-control fs-1 fw-bold ms-3 mt-4" 
+                                    className="form-control fs-1 fw-bold ms-1 mt-4 mbx-auto mby-auto" 
                                     id="name" 
                                     placeholder="John Doe"
                                 />
                             </div>
                             <div className="fs-2 fw-bold mb-3">
-                                <label htmlFor="exampleFormControlInput1" className="form-label">
+                                <label htmlFor="exampleFormControlInput1" className="form-label ms-1 text-white">
                                     Email address
                                 </label>
                                 <input 
                                     type="email" 
                                     name="email"
-                                    className="form-control fs-1 fw-bold ms-3 mt-4" 
+                                    className="form-control fs-1 fw-bold ms-1 mt-4" 
                                     id="exampleFormControlInput1" 
                                     placeholder="name@example.com"
                                 />
                             </div>
-                            <div className="fs-2 fw-bold mb-3">
-                                <label htmlFor="exampleFormControlTextarea1" className="form-label">
+                            <div className="fs-2 fw-bold  mb-3">
+                                <label htmlFor="exampleFormControlTextarea1" className="form-label ms-1 text-white">
                                     Your Message
                                 </label>
                                 <textarea 
                                     name="message"
-                                    className="form-control" 
+                                    className="form-control ms-1 me-2" 
                                     id="exampleFormControlTextarea1" 
                                     rows="5">
                                 </textarea>
                             </div>
-                            <button type="submit" className="btn btn-outline-primary display-4 mb-3">
+                            <button type="submit" className="btn btn-outline-primary fs-5 display-4 ms-1 mb-3">
                                 Send Message <i className="fs-2 fw-bold fa fa-paper-plane ms-2"></i>
                             </button>
                         </form>
